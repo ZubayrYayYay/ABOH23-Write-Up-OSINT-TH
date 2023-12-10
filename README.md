@@ -95,8 +95,15 @@ The flag is ABOH{2e1594cea1d8e012c709f3d71a4e57dcbc9d017b89f623822fc56c9f734eb49
 
 **Challenge1**
 
+First we look at the file output.txt
+
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/70a10bb3-f632-41f0-8f1b-3f3eb172badc)
+
+After that, we go to dcode RSA Decoder website, so there was the flag
+
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/3d248168-4da9-414e-aeb9-ef09a5f852dd)
+
+The flag is ABOH23{rocky0ubrr!}
 
 **Challenge2**
 
