@@ -1,6 +1,6 @@
-# ABOH23-Write-Up-OSINT-TH-Cypto
+![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/68c96f5a-5f9d-4e7b-a678-c209e6289e51)![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/3e04c23b-b5a0-460d-9887-8442e24e84ef)# ABOH23-Write-Up-OSINT-TH-Cypto
 
-OSINT
+**OSINT**
 
 ![WhatsApp Image 2023-12-10 at 17 27 17_88efdee7](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/d7547050-ea59-4839-b6c4-a4e0f1387978)
 
@@ -41,5 +41,51 @@ So there is similarity between two videos where it was the shooting place
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/aa37257d-8aef-4d6a-9007-0562b37ca434)
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/1d8a7b81-00fe-442d-87b5-c8e07248ac3d)
 
-![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/9ec8bc67-ed77-46c0-a20b-ccf0dcdd0f0b)
+So when you Google Lens for the picture from Future Perfect MV, you found this and choose that one
+
+![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/2d3649f6-1ddf-4189-ab50-4679e3c669a5)
+
+After that, in the blog, there's say about a location which is Donga Land Transport Company, but to find the address you need to search the place in korean
+
+So, take this picutre and go to Google Lens
+
+![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/3ee08ad8-1386-4ba4-8a84-72d7fc6354da)
+
+Select the '동아 육운 창고' in the picture and choose the first link website
+
+![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/f7bc7a03-fedf-44c8-af85-0c45ef9cca62)
+
+In the website, you can translate it into english and go to the website footer, there is the exact location address for the flag on the left
+
+![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/223ad77a-b002-47f3-abb3-49a64347a684)
+
+But we need the full address, so, take the address and search it on google maps
+
+![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/c50e8b1b-2871-4186-aad1-f837895f3969)
+
+Copy the address and follow the format
+
+![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/8e035290-8a20-4bce-a6a0-565991c27a4b)
+
+The flag is ABOH23{1068_Poeun-daero_Mohyeon-eup_Cheoin-gu_Yongin-si_Gyeonggi-do_South_Korea}
+
+**Threat Hunting**
+
+Challenge 1
+
+So when you start and login the Windows Server, go to directory of System32
+
+There are several unknown .exe files, one of them is Mcqqic24UJyU40JKdja0A.exe
+
+The flag is ABOH{Mcqqic24UJyU40JKdja0A.exe}
+
+Challenge 2
+
+There is another .exe file and get the SHA256 by using command on Powershell
+
+*Get-FileHash C:\Path\To\File.exe -Algorithm SHA256*
+
+The flag is ABOH{2e1594cea1d8e012c709f3d71a4e57dcbc9d017b89f623822fc56c9f734eb491}
+
+Crypto
 
