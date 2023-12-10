@@ -1,6 +1,10 @@
-![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/68c96f5a-5f9d-4e7b-a678-c209e6289e51)![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/3e04c23b-b5a0-460d-9887-8442e24e84ef)# ABOH23-Write-Up-OSINT-TH-Cypto
+# ABOH23-Write-Up-OSINT-TH-Cypto
 
-**OSINT**
+# OSINT
+
+**Sorry, i dont remember the question title for OSINT D:**
+
+**First Question that i get is**
 
 ![WhatsApp Image 2023-12-10 at 17 27 17_88efdee7](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/d7547050-ea59-4839-b6c4-a4e0f1387978)
 
@@ -28,7 +32,7 @@ There are 3 station on Golden Line:
 
 The flag is ABOH23{Krung_Thon_Buri,Charoen_Nakhon}
 
-Move on to the next question
+**Move on to the next question**
 
 Given the 2 youtube link
 
@@ -69,9 +73,9 @@ Copy the address and follow the format
 
 The flag is ABOH23{1068_Poeun-daero_Mohyeon-eup_Cheoin-gu_Yongin-si_Gyeonggi-do_South_Korea}
 
-**Threat Hunting**
+# Threat Hunting
 
-Challenge 1
+**Challenge 1**
 
 So when you start and login the Windows Server, go to directory of System32
 
@@ -79,7 +83,7 @@ There are several unknown .exe files, one of them is Mcqqic24UJyU40JKdja0A.exe
 
 The flag is ABOH{Mcqqic24UJyU40JKdja0A.exe}
 
-Challenge 2
+**Challenge 2**
 
 There is another .exe file and get the SHA256 by using command on Powershell
 
@@ -87,5 +91,5 @@ There is another .exe file and get the SHA256 by using command on Powershell
 
 The flag is ABOH{2e1594cea1d8e012c709f3d71a4e57dcbc9d017b89f623822fc56c9f734eb491}
 
-Crypto
+# Crypto
 
