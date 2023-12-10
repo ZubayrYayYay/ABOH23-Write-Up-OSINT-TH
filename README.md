@@ -108,13 +108,20 @@ The flag is ABOH23{rocky0ubrr!}
 **Challenge2**
 
 We have a encrypt.py file so we can check that
+
+
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/c7183d8b-704e-4d19-9b5e-54426fa32070)
+
+So this is encoded file that were given
+
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/c5571ff1-46f9-485f-9a06-8558a0b0429e)
+
+So we reverse the python code to decode the encoded output
+
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/e4420adf-d2fc-48ea-b522-ed666773edef)
+
+After that, we run the python file that we reversed and that was the flag
+
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/9e9d0322-8688-46a9-b766-4e08ae880452)
 
-
-
-
-
-
+The flag is ABOH23{A3S_Rul35_tH3_F0rc3}
