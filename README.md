@@ -107,8 +107,9 @@ The flag is ABOH23{rocky0ubrr!}
 
 **Challenge2**
 
-We have a encrypt.py file so we can check that
+All the files in this 
 
+We have a encrypt.py file so we can check that
 
 ![image](https://github.com/ZubayrYayYay/ABOH23-Write-Up-OSINT-TH-Cypto/assets/125542852/c7183d8b-704e-4d19-9b5e-54426fa32070)
 
